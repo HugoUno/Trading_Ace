@@ -1,0 +1,26 @@
+# Golang
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# IDE
+.idea/
+.vscode/
+
+# Dependencies
+vendor/
+
+# Environment
+.env
+.env.local
+
+# Database
+*.db
+
+# Others
+.DS_Store
