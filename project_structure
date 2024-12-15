@@ -1,0 +1,33 @@
+trading-ace/
+├── cmd/
+│   └── server/
+│       └── main.go
+├── internal/
+│   ├── config/
+│   │   └── config.go
+│   ├── domain/
+│   │   ├── campaign.go
+│   │   ├── task.go
+│   │   └── user.go
+│   ├── repository/
+│   │   ├── postgres/
+│   │   │   ├── campaign.go
+│   │   │   ├── task.go
+│   │   │   └── user.go
+│   │   └── redis/
+│   │       └── cache.go
+│   ├── service/
+│   │   └── campaign.go
+│   └── handler/
+│       └── http/
+│           └── handler.go
+├── pkg/
+│   ├── database/
+│   │   └── postgres.go
+│   └── ethereum/
+│       └── client.go
+├── scripts/
+│   └── migrations/
+├── docker-compose.yml
+├── Dockerfile
+└── README.md 

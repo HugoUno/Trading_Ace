@@ -1,0 +1,19 @@
+campaign:
+  start_time: "2024-03-01T00:00:00Z"
+  end_time: "2024-03-28T23:59:59Z"
+  points_pool: 10000
+
+server:
+  port: 8080
+
+database:
+  host: localhost
+  port: 5432
+  user: postgres
+  password: postgres
+  dbname: trading_ace
+  sslmode: disable
+
+ethereum:
+  node_url: https://mainnet.infura.io/v3/YOUR-PROJECT-ID
+  pool_address: "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc" 
